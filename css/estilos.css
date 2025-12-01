@@ -128,11 +128,12 @@ background-color: #fdf1d6;;
 }
 
 .contenedor-tarjetas {
+    
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
-    gap: 20px;
-    max-width: 1200px;
+    gap: 200px;
+    flex-wrap: wrap;
+
 }
 
 .tarjeta {
