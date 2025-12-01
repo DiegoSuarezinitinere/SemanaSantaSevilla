@@ -198,6 +198,7 @@ background-color: #fdf1d6;;
 }
 
 .cuadro-resaltado h4 {
+    
     color: #e5c100;
     margin-bottom: 10px;
 }
@@ -208,6 +209,7 @@ background-color: #fdf1d6;;
     color: white;
     text-align: center;
     padding: 20px;
+    flex-wrap: wrap;
 }
 
 
@@ -226,5 +228,10 @@ background-color: #fdf1d6;;
     .navbar {
         flex-direction: column;
         gap: 15px;
+    }
+    //que el pie de pagina se ponga en columna en movil
+    .pie-pagina {
+        flex-direction: column;
+        gap: 10px;
     }
 }
